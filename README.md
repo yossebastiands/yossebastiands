@@ -1,14 +1,55 @@
-- 👋 Hi, I’m @yossebastiands
+<h1 align="center">Hi there 👋, I'm Yos Sebastian</h1>
 
-Portfolio: https://yossebastiands.github.io/
+<p align="center">
+  <a href="https://yossebastiands.github.io/">
+    <img src="https://img.shields.io/badge/-My%20Portfolio-0A66C2?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:yossebastiands@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
-Programming is what I do for having fun and fortunately, having fun is what I do in my life. And Humanoid Robotics is the major I am studying now for Bachelor degree. 
-Maybe not the best programmer, but I am trying to be one. And being competitive is my side hustle :)
-But being helpful is my main hustle :)
+---
 
-So let's program and do some unregrettable creations 
+### 🚀 About Me
+- 🎯 **Programming is my passion**—it's how I have fun!
+- 🤖 **Studying Humanoid Robotics** for my Bachelor's degree.
+- 💡 **Not the best programmer (yet), but always improving**.
+- ⚡ **Competitive by nature, helpful by heart**.
+- 🔥 **Let's create something meaningful & unregrettable!**
 
-<!---
-yossebastiands/yossebastiands is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
+
+### 🛠️ Tech Stack:
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+---
+
+### 📊 GitHub Stats:
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=yossebastiands&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=yossebastiands&theme=tokyonight" />
+</p>
+
+---
+
+### 🌐 Connect With Me:
+<p align="left">
+  <a href="https://github.com/yossebastiands" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:yossebastiands@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+---
+
+✨ *"Code, create, and make the future happen!"* 🚀
