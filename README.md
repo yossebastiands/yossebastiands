@@ -12,15 +12,14 @@
 ---
 
 ### 🚀 About Me
-- 🎯 **Programming is my passion**—it's how I have fun!
-- 🤖 **Studying Humanoid Robotics** for my Bachelor's degree.
-- 💡 **Not the best programmer (yet), but always improving**.
+- 🎯 **Programming** is what I do during my free time
+- 🤖 **Creating** is what I do at work
+- 💡 **Curiosity** is my super power.
 - ⚡ **Competitive by nature, helpful by heart**.
-- 🔥 **Let's create something meaningful & unregrettable!**
 
 ---
 
-### 🛠️ Tech Stack:
+### 🛠️ Skills:
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
