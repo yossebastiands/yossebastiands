@@ -1,13 +1,6 @@
 <h1 align="center">Hi there 👋, I'm Yos Sebastian</h1>
 
-<p align="center">
-  <a href="https://yossebastiands.github.io/">
-    <img src="https://img.shields.io/badge/-My%20Portfolio-0A66C2?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:yossebastiands@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+
 
 ---
 
