@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Products from '../components/Products.astro';
+import DevActivity from '../components/DevActivity.astro';
+---
+
+<BaseLayout title="Yos Sebastian — Portfolio">
+  <!-- Hero -->
+  <header class="py-24 px-6 max-w-6xl mx-auto">
+    <h1 class="text-5xl font-extrabold tracking-tight text-white mb-4">
+      Hi, I'm <span class="text-orange-400">Yos Sebastian</span> 👋
+    </h1>
+    <p class="text-xl text-gray-400 max-w-2xl">
+      Developer and creator. I build scripts, tools, and systems for FiveM communities and beyond.
+    </p>
+    <div class="mt-8 flex flex-wrap gap-4">
+      <a
+        href="#products"
+        class="px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-xl transition-colors"
+      >
+        See my work
+      </a>
+      <a
+        href="https://github.com/yossebastiands"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="px-6 py-3 border border-gray-700 hover:border-orange-500/50 text-gray-300 hover:text-white font-semibold rounded-xl transition-colors"
+      >
+        GitHub
+      </a>
+    </div>
+  </header>
+
+  <Products />
+  <DevActivity />
+
+  <footer class="py-10 px-6 text-center text-gray-600 text-sm border-t border-gray-800">
+    © {new Date().getFullYear()} Yos Sebastian · Built with Astro & Tailwind CSS
+  </footer>
+</BaseLayout>
