@@ -19,4 +19,4 @@ Building across three ventures:
 
 ---
 
-[portfolio](https://yossebastiands.github.io) · [x/twitter](https://x.com/MBO_Wargame) · [ko-fi](https://ko-fi.com/yosinberlin)
+[portfolio](https://yossebastiands.github.io) · [ko-fi](https://ko-fi.com/yosinberlin)
