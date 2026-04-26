@@ -1,50 +1,22 @@
-<h1 align="center">Hi there 👋, I'm Yos Sebastian</h1>
+### yos sebastian
 
+Indie developer and entrepreneur based in Berlin.
+Studying Applied Computer Science at THB Brandenburg.
 
+Building across three ventures:
 
----
-
-### 🚀 About Me
-- 🎯 **Programming** is what I do during my free time
-- 🤖 **Creating** is what I do at work
-- 💡 **Curiosity** is my super power.
-- ⚡ **Competitive by nature, helpful by heart**.
-
----
-
-### 🛠️ Skills:
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" />
-  <img src="https://img.shields.io/badge/FiveM%20Modding-FF5500?style=for-the-badge&logo=rockstar&logoColor=white" />
-</p>
+- **Modern Battle Operations** — military PvP FiveM server. Wave defense, dogfights,
+  ranked modes, 1000-level progression. Global community across 7 languages.
+- **Apollo Flight Program** — FiveM script studio. Lua resources, afterburner effects,
+  tactical dashboards. Sold via Tebex with FiveM Escrow.
+- **Opventura** — Google Sheets automation templates and consulting for non-technical teams.
 
 ---
 
-### 📊 GitHub Stats:
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=yossebastiands&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=yossebastiands&theme=tokyonight" />
-</p>
+**Stack:** Lua · JavaScript · Python · Node.js · Astro · Google Apps Script  
+**Infra:** Hetzner · MariaDB · txAdmin · Linux  
+**Tools:** VS Code · Blender/Sollumz · CodeWalker · Tebex
 
 ---
 
-### 🌐 Connect With Me:
-<p align="left">
-  <a href="https://github.com/yossebastiands" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:yossebastiands@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
----
-
-✨ *"Code, create, and make the future happen!"* 🚀
+[portfolio](https://yossebastiands.github.io) · [x/twitter](https://x.com/MBO_Wargame) · [ko-fi](https://ko-fi.com/yosinberlin)
