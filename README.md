@@ -13,4 +13,6 @@ I am curious more than I can endure....
   </a>
 </p>
 
-[Cracking my brains out](https://yossebastian.duckdns.org)
+<p align="center">
+  <a href="https://yossebastian.duckdns.org">Cracking my brains out</a>
+</p>
