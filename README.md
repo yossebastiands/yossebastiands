@@ -1,7 +1,7 @@
 # yos sebastian
 
 <p>
-  <img src="./chaos.svg" width="880" alt="A restless hand-drawn line that keeps drawing itself">
+  <img src="./traffic.svg" width="880" alt="A car driving into a sunset on a highway, endlessly swerving around slower traffic">
 </p>
 
 I am curious more than I can endure....
