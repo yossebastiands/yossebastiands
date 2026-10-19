@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200" role="img" aria-label="A restless hand-drawn line that keeps drawing itself.">
+  <defs>
+    <linearGradient id="ink" x1="40" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <filter id="glow" x="-15%" y="-60%" width="130%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .ink {
+        fill: none;
+        stroke: url(#ink);
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .ghost { stroke-width: 2; opacity: 0.20; }
+
+      .run-a {
+        stroke-width: 2.4;
+        stroke-dasharray: 240 760;
+        animation: slide-a 9s linear infinite;
+      }
+      .run-b {
+        stroke-width: 2;
+        stroke-dasharray: 70 930;
+        opacity: 0.9;
+        animation: slide-b 5.5s linear infinite;
+      }
+      .run-c {
+        stroke-width: 3.4;
+        stroke-dasharray: 16 984;
+        opacity: 0.55;
+        animation: slide-a 3.4s linear infinite;
+      }
+      .run-a, .run-b, .run-c { filter: url(#glow); }
+
+      @keyframes slide-a {
+        from { stroke-dashoffset: 1000; }
+        to   { stroke-dashoffset: 0; }
+      }
+      @keyframes slide-b {
+        from { stroke-dashoffset: -1000; }
+        to   { stroke-dashoffset: 0; }
+      }
+
+      .wobble {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: wobble 4.6s ease-in-out infinite alternate;
+      }
+      @keyframes wobble {
+        from { transform: rotate(-0.55deg); }
+        to   { transform: rotate(0.55deg); }
+      }
+
+      .pulse {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: pulse 3.4s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(0.55); opacity: 0.25; }
+        50%      { transform: scale(1.2);  opacity: 1; }
+      }
+
+      .spark { animation: flicker 2.8s ease-in-out infinite; }
+      @keyframes flicker {
+        0%, 100% { opacity: 0.12; }
+        40%      { opacity: 1; }
+        55%      { opacity: 0.35; }
+        70%      { opacity: 0.95; }
+      }
+
+      .caret { animation: blink 1.5s steps(1, end) infinite; }
+      @keyframes blink {
+        0%, 49%   { opacity: 1; }
+        50%, 100% { opacity: 0.1; }
+      }
+
+      /* the same ink needs a little more body on a white page */
+      @media (prefers-color-scheme: light) {
+        .ghost { opacity: 0.34; }
+        .run-c { opacity: 0.7; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .wobble, .pulse, .spark, .caret,
+        .run-a, .run-b, .run-c { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- the line itself, still being drawn -->
+  <g class="wobble">
+    <path class="ink ghost" pathLength="1000"
+      d="M 40 116 C 58 62 84 168 106 100 S 132 54 156 132 S 180 158 196 88 S 226 62 250 136 S 280 196 306 70 S 330 40 352 120 S 368 74 390 104 S 406 140 424 82 S 448 34 480 128 S 508 186 532 72 S 556 96 574 132 S 596 60 620 118 S 648 176 674 90 S 698 46 724 124 S 750 170 772 96 S 792 66 812 122 S 828 140 840 104"/>
+
+    <path class="ink run-a" pathLength="1000"
+      d="M 40 116 C 58 62 84 168 106 100 S 132 54 156 132 S 180 158 196 88 S 226 62 250 136 S 280 196 306 70 S 330 40 352 120 S 368 74 390 104 S 406 140 424 82 S 448 34 480 128 S 508 186 532 72 S 556 96 574 132 S 596 60 620 118 S 648 176 674 90 S 698 46 724 124 S 750 170 772 96 S 792 66 812 122 S 828 140 840 104"/>
+
+    <path class="ink run-b" pathLength="1000"
+      d="M 40 116 C 58 62 84 168 106 100 S 132 54 156 132 S 180 158 196 88 S 226 62 250 136 S 280 196 306 70 S 330 40 352 120 S 368 74 390 104 S 406 140 424 82 S 448 34 480 128 S 508 186 532 72 S 556 96 574 132 S 596 60 620 118 S 648 176 674 90 S 698 46 724 124 S 750 170 772 96 S 792 66 812 122 S 828 140 840 104"/>
+
+    <path class="ink run-c" pathLength="1000"
+      d="M 40 116 C 58 62 84 168 106 100 S 132 54 156 132 S 180 158 196 88 S 226 62 250 136 S 280 196 306 70 S 330 40 352 120 S 368 74 390 104 S 406 140 424 82 S 448 34 480 128 S 508 186 532 72 S 556 96 574 132 S 596 60 620 118 S 648 176 674 90 S 698 46 724 124 S 750 170 772 96 S 792 66 812 122 S 828 140 840 104"/>
+  </g>
+
+  <!-- things going off around the line -->
+  <g fill="none" stroke-linecap="round">
+    <circle class="spark" cx="156" cy="132" r="2.8" fill="#22d3ee" stroke="none" style="animation-delay:-0.2s"/>
+    <circle class="spark" cx="250" cy="136" r="2.2" fill="#f472b6" stroke="none" style="animation-delay:-1.1s"/>
+    <circle class="spark" cx="480" cy="128" r="3.1" fill="#8b5cf6" stroke="none" style="animation-delay:-1.9s"/>
+    <circle class="spark" cx="674" cy="90"  r="2.4" fill="#22d3ee" stroke="none" style="animation-delay:-0.7s"/>
+    <circle class="spark" cx="812" cy="122" r="2.6" fill="#f472b6" stroke="none" style="animation-delay:-2.3s"/>
+
+    <circle class="spark" cx="96"  cy="58"  r="1.8" fill="#22d3ee" stroke="none" style="animation-delay:-1.5s"/>
+    <circle class="spark" cx="300" cy="156" r="1.6" fill="#8b5cf6" stroke="none" style="animation-delay:-0.4s"/>
+    <circle class="spark" cx="560" cy="54"  r="1.9" fill="#f472b6" stroke="none" style="animation-delay:-2.0s"/>
+    <circle class="spark" cx="720" cy="150" r="1.7" fill="#22d3ee" stroke="none" style="animation-delay:-1.2s"/>
+  </g>
+
+  <g fill="#8b5cf6">
+    <circle class="pulse" cx="196" cy="88"  r="3.2" style="animation-delay:-0.3s"/>
+    <circle class="pulse" cx="306" cy="70"  r="2.6" style="animation-delay:-1.4s"/>
+    <circle class="pulse" cx="424" cy="82"  r="3.4" style="animation-delay:-2.1s"/>
+    <circle class="pulse" cx="532" cy="72"  r="2.8" style="animation-delay:-0.8s"/>
+    <circle class="pulse" cx="724" cy="124" r="3"   style="animation-delay:-1.8s"/>
+  </g>
+
+  <!-- it is still being written -->
+  <rect class="caret" x="849" y="90" width="9" height="20" rx="2" fill="url(#ink)"/>
+</svg>
