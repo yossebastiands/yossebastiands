@@ -1,10 +1,16 @@
 # yos sebastian
 
-<p>
-  <img src="./traffic.svg" width="880" alt="A car driving into a sunset on a highway, endlessly swerving around slower traffic">
+<p align="center">
+  <img src="./drift.webp" width="880" alt="Drifting through an empty night road">
 </p>
 
 I am curious more than I can endure....
 ---
+
+<p align="center">
+  <a href="https://yossebastian.duckdns.org">
+    <img src="./Ideas.svg" width="300" alt="A machine printing a brain">
+  </a>
+</p>
 
 [Cracking my brains out](https://yossebastian.duckdns.org)
